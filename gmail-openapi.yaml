@@ -1,0 +1,40 @@
+openapi: 3.1.0
+info:
+  title: Gmail API
+  description: Sends a personalized archetype-based email using the Gmail API.
+  version: 1.0.0
+servers:
+  - url: https://gmail.googleapis.com
+    description: Gmail API server
+paths:
+  /gmail/v1/users/me/messages/send:
+    post:
+      operationId: sendArchetypeEmail
+      summary: Sends a personalized archetype message email.
+      security:
+        - oauth2: [https://www.googleapis.com/auth/gmail.send]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                raw:
+                  type: string
+                  description: Encoded RFC 5322 email content.
+              required:
+                - raw
+      responses:
+        '200':
+          description: Email sent successfully.
+components:
+  securitySchemes:
+    oauth2:
+      type: oauth2
+      flows:
+        authorizationCode:
+          authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth
+          tokenUrl: https://oauth2.googleapis.com/token
+          scopes:
+            https://www.googleapis.com/auth/gmail.send: Send email on your behalf.
