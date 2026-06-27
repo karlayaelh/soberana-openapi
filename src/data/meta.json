@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "phase": "building",
+  "currentChapterId": "ch-astrocartography",
+  "chapters": [
+    { "id": "ch-natal", "numeral": "I", "title": "Natal Chart", "completeness": 0.7, "updatedAt": "2026-06-20" },
+    { "id": "ch-astrocartography", "numeral": "II", "title": "Astrocartography", "completeness": 0.45, "updatedAt": "2026-06-26" },
+    { "id": "ch-locations", "numeral": "III", "title": "Locations", "completeness": 0.4, "updatedAt": "2026-06-25" },
+    { "id": "ch-relocation", "numeral": "IV", "title": "Relocation Charts", "completeness": 0.3, "updatedAt": "2026-06-18" },
+    { "id": "ch-transits", "numeral": "V", "title": "Transits", "completeness": 0.55, "updatedAt": "2026-06-27" },
+    { "id": "ch-activations", "numeral": "VI", "title": "Symbolic Activations", "completeness": 0.25, "updatedAt": "2026-06-22" },
+    { "id": "ch-timeline", "numeral": "VII", "title": "Timeline", "completeness": 0.6, "updatedAt": "2026-06-24" },
+    { "id": "ch-research", "numeral": "VIII", "title": "Research", "completeness": 0.35, "updatedAt": "2026-06-27" }
+  ],
+  "changelog": [
+    {
+      "version": "0.1.0",
+      "date": "2026-06-27",
+      "notes": [
+        "Initial Atlas scaffold.",
+        "Core knowledge model: observation / hypothesis / evidence / provisional conclusion.",
+        "Executive dashboard online.",
+        "Sample data seeded — replace with real birth data in profile.json."
+      ]
+    }
+  ]
+}

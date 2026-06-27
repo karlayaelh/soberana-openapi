@@ -1,0 +1,7 @@
+[
+  { "id": "act-1", "kind": "music", "title": "Fado portugués", "note": "Atracción persistente meses antes de considerar Lisboa.", "locationId": "loc-lisbon", "date": "2026-05-10" },
+  { "id": "act-2", "kind": "architecture", "title": "Azulejos", "note": "Patrones geométricos azules aparecen en sueños y bocetos.", "locationId": "loc-lisbon", "date": "2026-05-18" },
+  { "id": "act-3", "kind": "art", "title": "Diseño maorí", "note": "Curvas koru influyen una serie de ilustraciones tras Auckland.", "locationId": "loc-auckland", "date": "2026-03-01" },
+  { "id": "act-4", "kind": "food", "title": "Cocina de mercado", "note": "Ritual diario de mercado en CDMX como ancla de disciplina.", "locationId": "loc-cdmx", "date": "2026-01-15" },
+  { "id": "act-5", "kind": "language", "title": "Português", "note": "Comienzo de estudio del idioma sin razón externa clara.", "locationId": "loc-lisbon", "date": "2026-06-01" }
+]

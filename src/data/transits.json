@@ -1,0 +1,32 @@
+[
+  {
+    "id": "tr-1", "scope": "monthly",
+    "transiting": "jupiter", "aspect": "trine", "natalPlanet": "sun",
+    "start": "2026-06-10", "exact": "2026-06-29", "end": "2026-07-20",
+    "theme": "Expansion of identity and confidence. A good window for bold, growth-oriented decisions."
+  },
+  {
+    "id": "tr-2", "scope": "weekly",
+    "transiting": "venus", "aspect": "conjunction", "natalPlanet": "venus",
+    "start": "2026-06-24", "exact": "2026-06-27", "end": "2026-06-30",
+    "theme": "Venus return flavour: aesthetics, relationships and self-worth come into focus."
+  },
+  {
+    "id": "tr-3", "scope": "daily",
+    "transiting": "moon", "aspect": "square", "natalPlanet": "moon",
+    "start": "2026-06-27", "exact": "2026-06-27", "end": "2026-06-28",
+    "theme": "Emotional friction; a day to observe feelings rather than act on them."
+  },
+  {
+    "id": "tr-4", "scope": "annual",
+    "transiting": "saturn", "aspect": "conjunction", "natalPlanet": "mars",
+    "start": "2026-03-01", "exact": "2026-09-15", "end": "2027-01-31",
+    "theme": "A year of disciplined effort. Slow but durable progress on long-term goals."
+  },
+  {
+    "id": "tr-5", "scope": "monthly",
+    "transiting": "mars", "aspect": "sextile", "natalPlanet": "saturn",
+    "start": "2026-07-22", "exact": "2026-08-02", "end": "2026-08-12",
+    "theme": "Productive drive applied to structure. Upcoming — good for execution sprints."
+  }
+]

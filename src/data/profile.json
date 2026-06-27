@@ -1,0 +1,11 @@
+{
+  "name": "Karla",
+  "birthDateTime": "1990-03-28T07:45:00-06:00",
+  "birthPlace": {
+    "label": "Ciudad de México, México",
+    "lat": 19.4326,
+    "lon": -99.1332,
+    "timezone": "America/Mexico_City"
+  },
+  "currentLocationId": "loc-cdmx"
+}

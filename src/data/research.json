@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rq-1",
+    "question": "¿Las ubicaciones sobre líneas de Venus correlacionan con mis periodos más creativos?",
+    "status": "investigating", "domain": "astrocartography",
+    "hypothesisIds": ["hyp-1"], "updatedAt": "2026-06-26"
+  },
+  {
+    "id": "rq-2",
+    "question": "¿Es CDMX un capítulo de Saturno (disciplina) más que de facilidad?",
+    "status": "open", "domain": "locations",
+    "hypothesisIds": ["hyp-2"], "updatedAt": "2026-06-22"
+  },
+  {
+    "id": "rq-3",
+    "question": "¿Conviene cronometrar una mudanza grande con el trígono Júpiter–Sol?",
+    "status": "open", "domain": "transits",
+    "hypothesisIds": ["hyp-3"], "updatedAt": "2026-06-27"
+  },
+  {
+    "id": "rq-4",
+    "question": "¿La línea Luna IC es el mejor indicador de 'hogar'?",
+    "status": "rejected", "domain": "astrocartography",
+    "hypothesisIds": ["hyp-0"], "updatedAt": "2026-06-18"
+  },
+  {
+    "id": "rq-5",
+    "question": "¿Qué activaciones remotas precedieron a mudanzas reales en el pasado?",
+    "status": "open", "domain": "activations",
+    "hypothesisIds": [], "updatedAt": "2026-06-25"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "reloc-cdmx",
+    "locationId": "loc-cdmx",
+    "angleShifts": {
+      "AC": { "sign": "capricorn", "planet": "saturn" },
+      "MC": { "sign": "scorpio" }
+    },
+    "notableLines": ["Saturn AC", "Uranus MC"],
+    "summary": "Relocated chart emphasises the 10th-house stellium on the angles: career, structure, mastery."
+  },
+  {
+    "id": "reloc-auckland",
+    "locationId": "loc-auckland",
+    "angleShifts": {
+      "MC": { "sign": "taurus", "planet": "venus" },
+      "DC": { "sign": "cancer", "planet": "jupiter" }
+    },
+    "notableLines": ["Venus MC", "Jupiter DC"],
+    "summary": "Venus rises to the Midheaven: creativity and beauty become public and visible."
+  },
+  {
+    "id": "reloc-lisbon",
+    "locationId": "loc-lisbon",
+    "angleShifts": {
+      "AC": { "sign": "taurus", "planet": "venus" },
+      "DC": { "sign": "aries", "planet": "sun" }
+    },
+    "notableLines": ["Venus AC", "Sun DC"],
+    "summary": "Venus on the Ascendant — identity softens toward ease, art and pleasure."
+  }
+]

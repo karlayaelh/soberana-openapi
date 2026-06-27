@@ -1,0 +1,44 @@
+[
+  {
+    "planet": "venus",
+    "meaning": "Ease, beauty, relationship and creative magnetism.",
+    "angles": {
+      "AC": "You are seen as charming and aesthetic; relationships find you.",
+      "MC": "Public recognition through beauty, art and taste.",
+      "DC": "Significant partnerships form here.",
+      "IC": "A home filled with art and comfort."
+    },
+    "countries": ["New Zealand", "Portugal", "Italy"],
+    "cities": ["Auckland", "Lisboa", "Firenze"],
+    "evidenceIds": ["ev-1"],
+    "hypothesisIds": ["hyp-1"],
+    "notes": "Strongest line in the chart for quality-of-life decisions."
+  },
+  {
+    "planet": "saturn",
+    "meaning": "Structure, discipline, mastery and weight.",
+    "angles": {
+      "AC": "You are perceived as serious and responsible; life asks for maturity.",
+      "MC": "Career through endurance and authority.",
+      "IC": "A heavy but stabilising home base."
+    },
+    "countries": ["México", "Japan"],
+    "cities": ["Ciudad de México", "Tokyo"],
+    "evidenceIds": ["ev-2"],
+    "hypothesisIds": ["hyp-2"],
+    "notes": "Slow but real growth. Not a flow line."
+  },
+  {
+    "planet": "jupiter",
+    "meaning": "Expansion, luck, opportunity and growth.",
+    "angles": {
+      "DC": "Generous partnerships and mentors appear.",
+      "MC": "Visible expansion and opportunity."
+    },
+    "countries": ["New Zealand", "Canada"],
+    "cities": ["Auckland", "Vancouver"],
+    "evidenceIds": [],
+    "hypothesisIds": ["hyp-3"],
+    "notes": ""
+  }
+]
