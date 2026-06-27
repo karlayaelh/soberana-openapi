@@ -13,6 +13,8 @@
     "projectsStarted": ["Atlas Karla", "Estudio de diseño"],
     "people": ["Mentor de oficio"],
     "lessons": ["La disciplina precede al flujo."],
+    "patrimonial": ["Departamento rentado en la Roma", "Equipo de estudio adquirido"],
+    "spiritual": ["Ritual matutino de mercado", "Práctica de escritura diaria"],
     "hypothesisIds": ["hyp-2"]
   },
   {
@@ -29,6 +31,8 @@
     "projectsStarted": ["Serie de ilustraciones"],
     "people": ["Colaboradora de diseño"],
     "lessons": ["La facilidad creativa puede ser geográfica."],
+    "patrimonial": [],
+    "spiritual": ["Caminatas costeras como reinicio creativo"],
     "hypothesisIds": ["hyp-1"]
   },
   {
@@ -45,6 +49,8 @@
     "projectsStarted": [],
     "people": [],
     "lessons": [],
+    "patrimonial": [],
+    "spiritual": ["Atracción remota al fado y los azulejos"],
     "hypothesisIds": []
   }
 ]

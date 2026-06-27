@@ -130,3 +130,41 @@
 .animate-in {
   animation: fade-up 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
+
+/* ---- Leaflet theming ---- */
+.leaflet-container {
+  font-family: var(--font-sans);
+  background: var(--bg-sunken);
+}
+.atlas-pin {
+  cursor: pointer;
+}
+.leaflet-bar a,
+.leaflet-control-zoom a {
+  background: var(--bg-elev) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+.leaflet-bar a:hover {
+  background: var(--bg-sunken) !important;
+}
+.leaflet-tooltip {
+  background: var(--bg-elev);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+  font-size: 12px;
+  padding: 3px 8px;
+}
+.leaflet-tooltip-top::before {
+  border-top-color: var(--border);
+}
+.leaflet-control-attribution {
+  background: var(--bg-elev) !important;
+  color: var(--text-faint) !important;
+  border-top-left-radius: 0.5rem;
+}
+.leaflet-control-attribution a {
+  color: var(--text-muted) !important;
+}

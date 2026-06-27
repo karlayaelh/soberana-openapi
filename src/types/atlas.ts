@@ -137,6 +137,10 @@ export interface Location {
   projectsStarted: string[];
   people: string[];
   lessons: string[];
+  /** Patrimonial layer — property, assets, financial ties to this place. */
+  patrimonial?: string[];
+  /** Spiritual layer — practices, meaningful experiences, sense of place. */
+  spiritual?: string[];
   /** Open hypotheses currently attached to this place. */
   hypothesisIds: string[];
 }

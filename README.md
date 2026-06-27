@@ -50,6 +50,18 @@ Los nueve dominios de datos (`natal`, `astrocartography`, `locations`,
 `relocation`, `transits`, `hypotheses`, `evidence`, `activations`, `timeline`)
 están modelados en `src/types/atlas.ts`.
 
+## El Mapa (GIS personal)
+
+La pantalla principal es un **mapa interactivo** (Leaflet) donde cada lugar es un
+punto con **capas superpuestas**: astrológica, biográfica, proyectos, relaciones,
+patrimonial y espiritual. Las capas son *temas*; la **evidencia** no es una capa,
+sino un **eje transversal** — un filtro por categoría epistémica que atraviesa
+todas las capas. Las líneas de astrocartografía son por ahora **ilustrativas**
+(el cálculo real es una fase posterior). Ver `src/pages/MapPage.tsx` y
+`src/lib/layers.ts`.
+
+![Atlas Karla — Mapa GIS](docs/map-prototype.png)
+
 ## El Dashboard
 
 La landing se comporta como un panel ejecutivo y muestra los ocho bloques del

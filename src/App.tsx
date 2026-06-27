@@ -3,11 +3,12 @@ import { Menu } from 'lucide-react';
 import { Sidebar, NAV } from '@/components/Sidebar';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { Dashboard } from '@/pages/Dashboard';
+import { MapPage } from '@/pages/MapPage';
 import { ChapterPlaceholder } from '@/pages/ChapterPlaceholder';
 import { atlas } from '@/lib/atlas';
 
 export default function App() {
-  const [active, setActive] = useState('dashboard');
+  const [active, setActive] = useState('map');
   const [mobileNav, setMobileNav] = useState(false);
 
   const activeItem = NAV.find((n) => n.id === active) ?? NAV[0];
@@ -63,7 +64,9 @@ export default function App() {
         </div>
 
         <main className="flex-1 px-5 lg:px-8 py-6 max-w-[1400px] w-full mx-auto">
-          {active === 'dashboard' ? (
+          {active === 'map' ? (
+            <MapPage />
+          ) : active === 'dashboard' ? (
             <Dashboard />
           ) : (
             <ChapterPlaceholder item={activeItem} />

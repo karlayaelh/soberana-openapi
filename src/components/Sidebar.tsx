@@ -1,6 +1,6 @@
 import {
   LayoutDashboard, Orbit, Building2, MapPin, Map, Activity,
-  Sparkles, FlaskConical, CalendarClock, Settings, Compass,
+  Sparkles, FlaskConical, CalendarClock, Settings, Compass, Globe2,
 } from 'lucide-react';
 import type { ComponentType } from 'react';
 
@@ -11,6 +11,7 @@ export interface NavItem {
 }
 
 export const NAV: NavItem[] = [
+  { id: 'map', label: 'Mapa', icon: Globe2 },
   { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { id: 'natal', label: 'Natal Chart', icon: Orbit },
   { id: 'architecture', label: 'Architecture of Life', icon: Building2 },
