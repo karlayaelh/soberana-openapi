@@ -49,6 +49,52 @@ reales + (eventualmente) líneas de astrocartografía calculadas.
 
 ---
 
+## 2026-06-27 · El Atlas como "Memory Palace" (método de loci)
+
+**La idea (en palabras de Karla):**
+Que la app utilice la técnica de *memory palace* para optimizar la memoria.
+
+**Interpretación:** optimizar **el recall humano de Karla** (no la RAM): que la
+app esté diseñada para que recuerde y conecte su propia vida, usando el anclaje
+espacial del método de loci. Si en algún momento se quiere también optimizar
+rendimiento técnico, es un tema aparte.
+
+**El insight clave:** Atlas Karla *ya es* un palacio de la memoria implícito.
+Hacerlo intencional unifica todo el sistema:
+
+| Memory palace | Atlas Karla |
+|---|---|
+| El palacio | El mapa GIS |
+| Los *loci* | Cada lugar |
+| Las habitaciones | Las 6 capas del lugar |
+| Las imágenes vívidas (el truco mnemónico) | Las **activaciones simbólicas** (fado, azulejos, koru) |
+| La ruta / "el paseo" | Timeline + historial de relocations |
+| Repaso del palacio | Modo "recorre tu palacio" (recall activo) |
+
+> Reencuadre importante: las **activaciones simbólicas** dejan de ser una
+> curiosidad y se vuelven el **mecanismo de memoria** — son las imágenes vívidas
+> que el método de loci necesita.
+
+**Funciones candidatas (futuro, no construir aún):**
+1. **Ancla vívida por lugar:** símbolo / imagen / color de firma por *loci*,
+   alimentado por sus activaciones.
+2. **Modo "Recorre tu palacio":** recorrido ordenado (cronológico o temático)
+   lugar por lugar; en cada uno, recall activo ("¿qué pasó aquí, qué aprendiste?")
+   + repaso espaciado. Esto es lo que literalmente optimiza la memoria.
+3. **Codificación sensorial por capa:** motivo consistente por capa (música,
+   arquitectura, comida) como gancho mnemónico.
+
+**Relación con el resto:**
+- Mapa GIS = geografía (*dónde*).
+- Grafo tipo Obsidian = red de significado (*cómo se conecta*).
+- Memory palace = método de *recall* (*cómo se recuerda*).
+Las tres son vistas/usos del mismo grafo de datos.
+
+**Estado:** principio de diseño aprobado en concepto; funciones específicas a la
+espera de OK para construir.
+
+---
+
 <!-- Plantilla para nuevas notas:
 
 ## AAAA-MM-DD · Título corto
