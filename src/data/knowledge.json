@@ -1,0 +1,94 @@
+{
+  "observations": [
+    {
+      "id": "obs-1", "category": "observation", "domain": "natal", "immutable": true,
+      "statement": "Sun at 7°24' Aries in the 1st house.",
+      "source": "Natal ephemeris (birthDateTime in profile.json)",
+      "createdAt": "2026-06-10", "updatedAt": "2026-06-10"
+    },
+    {
+      "id": "obs-2", "category": "observation", "domain": "astrocartography", "immutable": true,
+      "statement": "Venus MC line passes within ~120 km of Auckland.",
+      "source": "Astrocartography map calculation",
+      "createdAt": "2026-06-12", "updatedAt": "2026-06-12"
+    },
+    {
+      "id": "obs-3", "category": "observation", "domain": "transits", "immutable": true,
+      "statement": "Jupiter is transiting trine natal Sun through July 2026.",
+      "source": "Transit ephemeris",
+      "createdAt": "2026-06-26", "updatedAt": "2026-06-26"
+    },
+    {
+      "id": "obs-4", "category": "observation", "domain": "locations", "immutable": true,
+      "statement": "Saturn AC line runs close to Mexico City, the current residence.",
+      "source": "Astrocartography map calculation",
+      "createdAt": "2026-06-15", "updatedAt": "2026-06-15"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "hyp-1", "category": "hypothesis", "domain": "astrocartography",
+      "question": "Do Venus-line locations correlate with my most creative periods?",
+      "statement": "Living near a Venus angle line amplifies creative output and ease in relationships.",
+      "status": "investigating", "confidence": 0.55,
+      "basedOnObservations": ["obs-2"],
+      "createdAt": "2026-06-12", "updatedAt": "2026-06-26"
+    },
+    {
+      "id": "hyp-2", "category": "hypothesis", "domain": "locations",
+      "question": "Is Mexico City a Saturn-coded chapter of discipline rather than ease?",
+      "statement": "The Saturn AC line makes CDMX a place of structure, work and slow mastery — not flow.",
+      "status": "open", "confidence": 0.4,
+      "basedOnObservations": ["obs-4"],
+      "createdAt": "2026-06-15", "updatedAt": "2026-06-22"
+    },
+    {
+      "id": "hyp-3", "category": "hypothesis", "domain": "transits",
+      "question": "Should a major move be timed to the Jupiter–Sun trine window?",
+      "statement": "Expansive decisions made under the Jupiter trine Sun tend to compound positively.",
+      "status": "open", "confidence": 0.5,
+      "basedOnObservations": ["obs-3"],
+      "createdAt": "2026-06-26", "updatedAt": "2026-06-27"
+    },
+    {
+      "id": "hyp-0", "category": "hypothesis", "domain": "astrocartography",
+      "question": "Is the Moon IC line the strongest indicator of 'home'?",
+      "statement": "The Moon IC line marks the single best place to put down roots.",
+      "status": "rejected", "confidence": 0.15,
+      "basedOnObservations": ["obs-2"],
+      "supersededBy": "hyp-1",
+      "createdAt": "2026-05-30", "updatedAt": "2026-06-18"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-1", "category": "evidence", "domain": "evidence",
+      "description": "Two weeks in Auckland produced an unusual burst of design work and a new collaboration.",
+      "date": "2026-02-14", "strength": "moderate", "locationId": "loc-auckland",
+      "supports": ["hyp-1"], "refutes": [],
+      "createdAt": "2026-02-20", "updatedAt": "2026-06-26"
+    },
+    {
+      "id": "ev-2", "category": "evidence", "domain": "evidence",
+      "description": "First year in CDMX felt heavy and structured — long hours, slow but real skill growth.",
+      "date": "2025-11-01", "strength": "strong", "locationId": "loc-cdmx",
+      "supports": ["hyp-2"], "refutes": [],
+      "createdAt": "2026-06-22", "updatedAt": "2026-06-22"
+    },
+    {
+      "id": "ev-3", "category": "evidence", "domain": "evidence",
+      "description": "Remote draw toward Portuguese music and architecture months before considering Lisbon.",
+      "date": "2026-05-10", "strength": "weak", "locationId": "loc-lisbon",
+      "supports": [], "refutes": [],
+      "createdAt": "2026-06-25", "updatedAt": "2026-06-25"
+    }
+  ],
+  "conclusions": [
+    {
+      "id": "concl-1", "category": "provisional_conclusion", "domain": "locations",
+      "statement": "CDMX is, for now, a Saturn chapter: a place to build foundations rather than to feel ease.",
+      "confidence": 0.6, "basedOn": ["ev-2", "hyp-2", "obs-4"],
+      "createdAt": "2026-06-22", "updatedAt": "2026-06-24"
+    }
+  ]
+}

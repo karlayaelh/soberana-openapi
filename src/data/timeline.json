@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tl-1", "date": "2026-02-14", "title": "Estancia en Auckland",
+    "locationId": "loc-auckland",
+    "decision": "Probar dos semanas sobre la línea Venus MC.",
+    "evidenceIds": ["ev-1"],
+    "hypothesesModified": ["hyp-1", "hyp-0"]
+  },
+  {
+    "id": "tl-2", "date": "2025-11-01", "title": "Mudanza a Ciudad de México",
+    "locationId": "loc-cdmx",
+    "decision": "Establecer base sobre la línea Saturn AC para construir oficio.",
+    "evidenceIds": ["ev-2"],
+    "hypothesesModified": ["hyp-2"]
+  },
+  {
+    "id": "tl-3", "date": "2026-05-10", "title": "Primeras activaciones de Lisboa",
+    "locationId": "loc-lisbon",
+    "decision": "Documentar la atracción remota antes de decidir.",
+    "evidenceIds": ["ev-3"],
+    "hypothesesModified": []
+  },
+  {
+    "id": "tl-4", "date": "2026-06-27", "title": "Inicio del Atlas v0.1",
+    "locationId": "loc-cdmx",
+    "decision": "Convertir el sistema en un repositorio vivo de conocimiento.",
+    "evidenceIds": [],
+    "hypothesesModified": ["hyp-3"]
+  }
+]
